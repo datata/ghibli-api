@@ -1,0 +1,31 @@
+.card-film {
+    overflow: hidden;
+}
+
+.card-film img{
+    opacity: 0.5;
+
+    /* overflow: hidden; */
+    transition: transform 0.7s ease;
+}
+
+.card-film img:hover {
+    opacity: 1;
+    cursor: pointer;
+    transform: scale(1.7);
+
+}
+
+.film-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
