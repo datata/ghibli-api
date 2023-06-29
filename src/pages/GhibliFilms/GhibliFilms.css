@@ -1,10 +1,12 @@
 .card-film {
     overflow: hidden;
+    margin:0;
+
 }
 
 .card-film img{
     opacity: 0.5;
-
+    padding: 0;
     /* overflow: hidden; */
     transition: transform 0.7s ease;
 }
@@ -13,7 +15,6 @@
     opacity: 1;
     cursor: pointer;
     transform: scale(1.7);
-
 }
 
 .film-list {
