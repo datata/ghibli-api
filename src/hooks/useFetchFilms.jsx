@@ -5,7 +5,7 @@ export const useFetchFilms = () => {
 
   useEffect(() => {
     
-    fetch('https://ghibliapi.vercel.app/films')
+    fetch('https://ghibli.rest/films')
       .then(res => res.json())
       .then(res => setFilms(res))
       .catch(error => console.log(error))

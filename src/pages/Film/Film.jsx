@@ -7,7 +7,7 @@ const Film = () => {
     const [film, setFilm] = useState({})
 
     useEffect(() => {
-        fetch(`https://ghibliapi.vercel.app/films/${id}`)
+        fetch(`https://ghibli.rest/films?id=${id}`)
             .then(res => res.json())
             .then(res => setFilm(res))
             .catch(error => console.log(error))
