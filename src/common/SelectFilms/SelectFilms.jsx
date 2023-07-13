@@ -7,7 +7,7 @@ const SelectFilms = () => {
   const [options, setOptions] = useState([])
 
   useEffect(() => {
-    fetch('https://ghibliapi.vercel.app/films')
+    fetch('https://ghibli.rest/films')
       .then(res => res.json())
       .then(res => {
         // const mappedOptions = res.map((option) => ({ id:option.id, title: option.title }))
